@@ -11,11 +11,12 @@ Criar labels no formato YOLO para suas imagens quando ferramentas como LabelMe n
 
 📂 Estrutura Necessária:
 
-dataset/
-└── raw_images/  # Coloque aqui suas 30 imagens não anotadas
+annotate_yolo/
+└── imagens/  
+└── labels/
+
 🛠️ Como Usar:
 Crie o arquivo annotate_yolo.py:
-
 
 annotate_yolo.py
 
