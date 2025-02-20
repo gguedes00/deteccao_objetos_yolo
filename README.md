@@ -11,11 +11,11 @@ Criar labels no formato YOLO para suas imagens quando ferramentas como LabelMe n
 
 📂 Estrutura Necessária:
 
-annotate_yolo/
-└── imagens/  
-└── labels/
+deteccao_objetos_yolo
+└──annotate_yolo/
+ imagens/  
 
-🛠️ Como Usar:
+## 🛠️ Como Usar:
 Crie o arquivo annotate_yolo.py:
 
 annotate_yolo.py
@@ -25,11 +25,9 @@ import os
 
 Execute o script:
 
-bash
-Copy
 python annotate_yolo.py
 
-🕹️ Controles:
+## 🕹️ Controles:
 
 Tecla	Ação
 1	Selecionar classe Gato
@@ -39,11 +37,10 @@ S	Salvar anotação
 N	Próxima imagem
 ESC	Sair do programa
 
-🎯 Saída Gerada:
-
+## 🎯 Saída Gerada:
 
 dataset/
-├── images/  # (suas imagens originais)
+├── images/  
 └── labels/  # Labels no formato YOLO
     ├── 1.txt
     ├── 2.txt
@@ -53,7 +50,7 @@ Exemplo de arquivo 1.txt:
 0 0.456 0.372 0.120 0.250  # Gato
 1 0.743 0.611 0.150 0.300  # Cachorro
 
-💡 Dicas:
+## 💡 Dicas:
 
 Mantenha os nomes das imagens e labels idênticos (ex: img1.jpg ↔ img1.txt)
 
