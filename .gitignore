@@ -1,0 +1,18 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# PyPI configuration file
+.pypirc
+yolov5/         
+venv/        
+*.pt         
+*.weights     
+.DS_Store     
+Thumbs.db     
+myenv/
+env/
